@@ -25,5 +25,3 @@ This repository contains the lecture material (`teaching_LR_v2.pdf`) and a begin
     ├── notebooks/
     └── requirements.txt
 ```
-
-Feel free to extend the notebooks with additional exercises (e.g., gradient descent, nonlinear transformations) as the course progresses.
