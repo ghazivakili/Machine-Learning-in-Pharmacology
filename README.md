@@ -1,27 +1,27 @@
 # Machine Learning in Pharmacology
 
-This repository contains the lecture material (`teaching_LR_v2.pdf`) and a beginner-friendly Python lab focused on linear regression for pharmacology and pharmacokinetics use cases.
+Hi, I'm Mohammad Ghazi Vakili from the Pharmacology Department. I keep this repo as the hub for my “Linear Regression in Pharmacology” lecture and the matching Python lab I share with students.
 
-## Contents
+## Why this repo exists
+- I wanted one place where I can update the slides (`teaching_LR_v2.pdf`) without emailing attachments every week.
+- The `pharmacology_linear_regression_lab/` folder holds the lab starter kit I walk through in class (datasets, notebooks, requirements).
+- When I need to hand the material to teaching assistants or upload it to GitHub Classroom, I just zip this repository.
 
-- `teaching_LR_v2.pdf` – Slide deck introducing QSAR, linear regression mathematics, and pharmacology examples.
-- `pharmacology_linear_regression_lab/` – Complete lab package with data, notebooks, and setup instructions.
+## How I run the lab
+1. Make sure Python 3.10+ is installed on the teaching laptop or Colab (when available).
+2. Drop into `pharmacology_linear_regression_lab/`, create a fresh virtual environment, and install the requirements.
+3. Launch `jupyter lab` (or Notebook) and open each notebook in numerical order—everything is written for students new to Python.
 
-## Getting Started
-
-1. Install Python 3.10+.
-2. Navigate into `pharmacology_linear_regression_lab/` and follow the README to create a virtual environment, install requirements, and open the notebooks in Jupyter Lab/Notebook.
-3. Share the lab folder with students or push it to GitHub/Classroom for distribution.
-
-## Folder Structure
-
+## Quick map of the repo
 ```
 .
-├── README.md
-├── teaching_LR_v2.pdf
+├── README.md                        # You are here
+├── teaching_LR_v2.pdf               # Lecture deck on QSAR + linear regression
 └── pharmacology_linear_regression_lab/
-    ├── README.md
-    ├── data/
-    ├── notebooks/
-    └── requirements.txt
+    ├── README.md                    # Detailed lab instructions
+    ├── data/                        # CSV files used in the exercises
+    ├── notebooks/                   # 01–05 linear regression examples with solutions
+    └── requirements.txt             # Minimal stack for the lab
 ```
+
+If you build on this material (e.g., add gradient descent or nonlinear models), let me know so I can credit you in class.
