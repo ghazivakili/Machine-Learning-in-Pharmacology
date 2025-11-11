@@ -1,18 +1,20 @@
 # Machine Learning in Pharmacology
 
-Hi, I'm Mohammad Ghazi Vakili from the Pharmacology Department. I keep this repo as the hub for my “Linear Regression in Pharmacology” lecture and the matching Python lab I share with students.
+Hi, I'm Mohammad Ghazi Vakili. I keep this repo as the hub for my “Machiine Learning in Pharmacology” lecture and the matching Python lab I share with students.
 
 ## Why this repo exists
-- I wanted one place where I can update the slides (`teaching_LR_v2.pdf`) without emailing attachments every week.
-- The `pharmacology_linear_regression_lab/` folder holds the lab starter kit I walk through in class (datasets, notebooks, requirements).
-- When I need to hand the material to teaching assistants or upload it to GitHub Classroom, I just zip this repository.
+
+- I wanted one place where I can update the slides of Linear Regression (`teaching_LR_v2.pdf`) without emailing attachments every week.
+- The `pharmacology_linear_regression_lab/` folder holds the lab starter kit I walk through in Lab sessions (datasets, notebooks, requirements).
 
 ## How I run the lab
+
 1. Make sure Python 3.10+ is installed on the teaching laptop or Colab (when available).
 2. Drop into `pharmacology_linear_regression_lab/`, create a fresh virtual environment, and install the requirements.
 3. Launch `jupyter lab` (or Notebook) and open each notebook in numerical order—everything is written for students new to Python.
 
 ## Quick map of the repo
+
 ```
 .
 ├── README.md                        # You are here
